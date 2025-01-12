@@ -424,15 +424,16 @@ body{
 }
 
 
+
 .input-field{
     padding: 24px 48px;
     width: 80%;
     box-sizing: border-box;
-    
+
     border-bottom: 1px solid rgba(14, 14, 14, 0.15);
     background: rgb(255, 255, 255);
 }
-input{
+.input-field > input{
     width: 100%;
     border: none;
     text-align: center;
@@ -455,4 +456,91 @@ input{
     background: rgb(0, 106, 80);
     margin-top: 39px;
     border: none;
+}
+
+/* style newsletter section */
+.news-letter-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 64;
+    padding: 96px 120px 96px 120px;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    margin-bottom: 96px;
+}
+
+.news-letter{
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 19px;
+    
+    
+}
+
+.news-letter-title{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 19px;
+    
+}
+
+.news-letter-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 29px;
+    text-align: center;
+    
+}
+
+label{
+    position: relative;
+}
+
+input{
+    color: rgba(14, 14, 14, 0.3);
+    font-family: Fira Sans;
+    font-size: 19px;
+    font-weight: 400;
+    text-align: left;
+    width: 720px;
+    border: none;
+    padding: 21px 48px 21px 48px;
+    border-radius: 8px 0px 0px 8px;
+    background: rgb(255, 255, 255);
+    
+}
+.letter-btn{
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border: none;
+    padding: 21px 41px 21px 41px;
+    border-radius: 0px 8px 8px 0px;
+    background: rgb(0, 106, 80);
+
+}
+
+.sub-title{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
 }
