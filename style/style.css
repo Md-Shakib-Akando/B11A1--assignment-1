@@ -238,3 +238,40 @@ background: rgb(198, 228, 214);
     margin-top:77px;
 }
 
+
+/* quote section-- */
+
+.quote-section{
+    padding: 58px 29px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    margin-bottom: 96px;
+    
+}
+#quote-bg-img{
+    background-image: url(../assets/quote-bg.png) ;
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-position-x: 29px;
+    background-position-y: 50px;
+    
+    
+}
+.quote-title{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.quote-sub-title{
+    color: rgba(14, 14, 14, 0.6);
+    font-family: Fira Sans;
+    font-size: 19px;
+    font-weight: 400;
+}
+
