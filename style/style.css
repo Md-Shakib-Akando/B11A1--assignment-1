@@ -49,6 +49,11 @@ body{
     
     
 }
+.btn1:hover{
+    background-color: rgb(0, 106, 80);
+    color: white;
+    cursor: pointer;
+}
 
 /* style banner sections */
 
@@ -216,6 +221,12 @@ body{
     margin-top: 29px;
 }
 
+#card-button1:hover{
+    background-color: brown;
+    cursor: pointer;
+}
+
+
 #card-button2{
     padding: 13px 24px;
     color: rgb(255, 255, 255);
@@ -226,6 +237,11 @@ body{
     background: rgb(9, 161, 92);
     border: none;
     margin-top:58px;
+}
+
+#card-button2:hover{
+    background-color: brown;
+    cursor: pointer;
 }
 
 #card-button3{
@@ -240,6 +256,10 @@ body{
     margin-top:77px;
 }
 
+#card-button3:hover{
+    background-color: brown;
+    cursor: pointer;
+}
 
 /* quote section-- */
 
@@ -249,7 +269,7 @@ body{
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
     background: rgb(255, 255, 255);
-    margin-bottom: 96px;
+    margin-bottom: 50px;
     
 }
 #quote-bg-img{
@@ -368,6 +388,10 @@ body{
     background: rgb(0, 106, 80);
     border: none;
 }
+.news-btn:hover{
+    background-color: blue;
+    cursor: pointer;
+}
 
 /* Donate section styles */
 
@@ -416,6 +440,18 @@ body{
     background: rgb(255, 255, 255);
 }
 
+#default-bg{
+    background-color: rgb(198, 228, 214);
+}
+.donate-card:hover{
+    background-color: lightgreen;
+    cursor: pointer;
+}
+#default-bg:hover{
+    background-color: lightgreen;
+    cursor: pointer;
+}
+
 .card-amount{
     color: rgba(14, 14, 14, 0.8);
     font-family: Fira Sans;
@@ -437,6 +473,7 @@ body{
     width: 100%;
     border: none;
     text-align: center;
+    outline: none;
     color: rgba(14, 14, 14, 0.3);
     font-family: Fira Sans;
     font-size: 24px;
@@ -457,7 +494,10 @@ body{
     margin-top: 39px;
     border: none;
 }
-
+.donate-btn:hover{
+    background-color: blue;
+    cursor: pointer;
+}
 /* style newsletter section */
 .news-letter-section{
     display: flex;
@@ -506,7 +546,7 @@ label{
     position: relative;
 }
 
-input{
+.input-mail{
     color: rgba(14, 14, 14, 0.3);
     font-family: Fira Sans;
     font-size: 19px;
@@ -514,6 +554,7 @@ input{
     text-align: left;
     width: 720px;
     border: none;
+    outline: none;
     padding: 21px 48px 21px 48px;
     border-radius: 8px 0px 0px 8px;
     background: rgb(255, 255, 255);
@@ -536,6 +577,11 @@ input{
 
 }
 
+.letter-btn:hover{
+    background-color: brown;
+    cursor: pointer;
+}
+
 .sub-title{
     color: rgba(14, 14, 14, 0.7);
     font-family: Fira Sans;
@@ -543,4 +589,31 @@ input{
     font-weight: 400;
     line-height: 19px;
     text-align: center;
+}
+/* footer section */
+.footer-section{
+    max-width: 1600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 38px;
+    margin-bottom: 40px;
+}
+
+hr{
+    width: 1347px;
+    border: 1px solid rgba(14, 14, 14, 0.1);
+}
+.footer-title{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 39px;
+    font-weight: 700;
+    margin-top: 60px;
+}
+
+.footer-icon{
+    padding: -192px;
+    display: flex;
+    gap: 26px;
 }
