@@ -8,6 +8,7 @@
 body{
     padding-left: 192px;
     padding-right: 192px;
+    background: rgb(245, 245, 245);
 }
 
 /* navber styles */
@@ -45,7 +46,7 @@ body{
     box-sizing: border-box;
     border: 1px solid rgb(0, 106, 80);
     border-radius: 8px;
-    background: rgb(245, 245, 245);
+    
     
 }
 
@@ -145,3 +146,95 @@ body{
     font-weight: 400;
     margin-top: 15px;
 }
+
+.cards2{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 39px;
+
+}
+
+#card-1{
+    width: 492px;
+    gap: 24;
+    padding: 39px;
+    margin-top: 39px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+    }
+
+#card-2{
+width: 492px;
+gap: 24;
+padding: 39px;
+margin-top: 39px;
+box-sizing: border-box;
+border-radius: 16px;
+background: rgb(198, 228, 214);
+}
+
+#card-3{
+    width: 492px;
+    gap: 24;
+    padding: 29px;
+    margin-top: 39px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(247, 235, 207);
+    }
+
+.card-title2{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.card-description2{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 19px;
+    font-weight: 400;
+    
+}
+
+#card-button1{
+
+    padding: 13px 24px;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 19px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+    background: rgb(84, 144, 245);
+    margin-top: 29px;
+}
+
+#card-button2{
+    padding: 13px 24px;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 19px;
+    font-weight: 600;
+    border-radius: 8px;
+    background: rgb(9, 161, 92);
+    border: none;
+    margin-top:58px;
+}
+
+#card-button3{
+    padding: 13px 24px;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 19px;
+    font-weight: 600;
+    border-radius: 8px;
+    background: rgb(255, 194, 57);
+    border: none;
+    margin-top:77px;
+}
+
