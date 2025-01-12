@@ -145,6 +145,7 @@ body{
     font-size: 19px;
     font-weight: 400;
     margin-top: 15px;
+    line-height: 29px;
 }
 
 .cards2{
@@ -165,14 +166,14 @@ body{
     }
 
 #card-2{
-width: 492px;
-gap: 24;
-padding: 39px;
-margin-top: 39px;
-box-sizing: border-box;
-border-radius: 16px;
-background: rgb(198, 228, 214);
-}
+    width: 492px;
+    gap: 24;
+    padding: 39px;
+    margin-top: 39px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+    }
 
 #card-3{
     width: 492px;
@@ -198,6 +199,7 @@ background: rgb(198, 228, 214);
     font-family: Fira Sans;
     font-size: 19px;
     font-weight: 400;
+    line-height: 29px;
     
 }
 
@@ -266,6 +268,7 @@ background: rgb(198, 228, 214);
     font-weight: 600;
     margin-top: 15px;
     margin-bottom: 5px;
+    line-height: 29px;
 }
 
 .quote-sub-title{
@@ -274,4 +277,96 @@ background: rgb(198, 228, 214);
     font-size: 19px;
     font-weight: 400;
 }
+/* recent news */
+.recent-news{
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+    
+}
+.recent-news-title{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 96px;
+    margin-bottom: 29px;
+}
+.recent-news-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 19px;
+    font-weight: 400;
+    margin-bottom: 39px;
+    line-height: 29px;
+}
+
+.news-img{
+    border-radius: 24px;
+    width: 483px;
+    height: 360px;
+}
+
+.news-title{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 39px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+
+
+.news{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 58px;
+    gap: 39px;
+    border-radius: 24px;
+    background: rgb(255, 255, 255);
+}
+
+.date-time{
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+.date-time .date{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 19px;
+    font-weight: 400;
+    
+}
+
+.date-time .time{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 19px;
+    font-weight: 400;
+    
+}
+
+.news-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-bottom: 39px;
+    line-height: 29px;
+}
+
+.news-btn{
+    padding: 16px 31px;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 21px;
+    font-weight: 600;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    border: none;
+}
+
 
