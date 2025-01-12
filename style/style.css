@@ -369,4 +369,90 @@ body{
     border: none;
 }
 
+/* Donate section styles */
 
+.donate-section{
+    margin-top: 96px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 96px;
+}
+
+.donate-title{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.donate-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    padding: 0px 105px 0px 105px;
+    margin-top: 29px;
+    margin-bottom: 38px;
+}
+
+.donate-cards{
+    display: flex;
+    justify-content: flex-start;
+    gap: 29px;
+    padding-left: 125px;
+    padding-right: 125px;
+    margin-bottom: 39px;
+}
+
+.donate-card{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    padding: 48px;
+    background: rgb(255, 255, 255);
+}
+
+.card-amount{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+
+.input-field{
+    padding: 24px 48px;
+    width: 80%;
+    box-sizing: border-box;
+    
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(255, 255, 255);
+}
+input{
+    width: 100%;
+    border: none;
+    text-align: center;
+    color: rgba(14, 14, 14, 0.3);
+    font-family: Fira Sans;
+    font-size: 24px;
+    font-weight: 400;
+    
+}
+
+.donate-btn{
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    margin-top: 39px;
+    border: none;
+}
